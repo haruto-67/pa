@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="text text text">
+</head>
+<body>
+        
+
+    <h1>PA練習</h1>
+    <h2>難易度</h2>
+    <p>簡単:+10dbのみ,難しい:+-5、10db</p>
+    <label><input type="radio" name="difficulty" value="easy" checked>簡単</label>
+    <label><input type="radio" name="difficulty" value="hard">難しい</label>
+    <h2>解答選択肢</h2>
+    <p>「ないかも？」は選択肢の中に答えがないかもしれないです。<br>4つ以上チェックを付けないとスタートできないです（ないかも？時は5つ以上）</p>
+    <label><input type="checkbox" name="frequency" value=0>100Hz</label>
+    <label><input type="checkbox" name="frequency" value=1 checked>250Hz</label>
+    <label><input type="checkbox" name="frequency" value=2>400Hz</label>
+    <label><input type="checkbox" name="frequency" value=3 checked>600Hz</label>
+    <label><input type="checkbox" name="frequency" value=4 checked>1.2kHz</label>
+    <label><input type="checkbox" name="frequency" value=5>2.4kHz</label>
+    <label><input type="checkbox" name="frequency" value=6 checked>4.8kHz</label>
+    <label><input type="checkbox" name="frequency" value=7>10kHz</label>
+    <label><input type="checkbox" name="frequency" value=8>ないかも？</label>
+    <h2>音色</h2>
+    <label><input type="radio" name="tone" value="前前前世.wav" checked>前前前世</label>
+    <label><input type="radio" name="tone" value="ノイズ.wav">ノイズ</label>
+    <br>
+    <input type="button" onclick="start();" value="スタートボタン">
+
+
+    <script src="iiyo.js"></script>
+</body>
+</html>
